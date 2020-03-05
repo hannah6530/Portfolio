@@ -13,6 +13,7 @@ import Services from './Services';
 import Testimonial from './Testimonial';
 import Blog from './Blog';
 import Contact from './Contact';
+import Footer from './Footer';
 
 class App extends React.Component {
 
@@ -29,9 +30,9 @@ class App extends React.Component {
           <Education />
           <Services />
           <Portfolio />
-          <Testimonial />
           <Blog />
           <Contact />
+          <Footer />
       
         </div>
       );
